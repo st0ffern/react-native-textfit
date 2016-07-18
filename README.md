@@ -6,6 +6,7 @@ Auto size text to fit inside a box
 - `children`: ***required*** Text input that should be resized
 - `width`: Maximum width of the box. (Default: auto)
 - `height`: Maximum height of the box. (Default: auto)
+- [Other React props](https://facebook.github.io/react-native/docs/text.html#props) 
 
 ## Installation
 
@@ -19,10 +20,12 @@ npm i -S react-native-textfit
 import MediaPicker from "react-native-textfit"
 ```
 
-```javascript
+```html
 <TextFit
   height={200}
-  width={150}>
+  width={150}
+  style={{color: 'red'}}
+  onPress={event => console.log(event)}>
   {'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'}
 </TextFit>
 ```

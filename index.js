@@ -42,6 +42,7 @@ class TextFit extends Component {
   render() {
     return (
       <Text 
+        {...this.props}
         ref="field"
         style={[
           this.props.style, 
