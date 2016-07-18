@@ -17,7 +17,7 @@ npm i -S react-native-textfit
 ## Usage Examples
 
 ```js
-import MediaPicker from "react-native-textfit"
+import TextFit from "react-native-textfit"
 ```
 
 ```html
