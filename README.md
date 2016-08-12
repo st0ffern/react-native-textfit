@@ -1,6 +1,9 @@
 # react-native-textfit [![version](https://img.shields.io/npm/v/react-native-textfit.svg)](https://www.npmjs.org/package/react-native-textfit)
 Auto size text to fit inside a box 
 
+***This repo will be discontinued as `adjustsFontSizeToFit` was added to react-native Text elements https://github.com/facebook/react-native/pull/4026 .. Finally! :wink:***
+
+
 ## Props
 
 - `children`: ***required*** Text input that should be resized
