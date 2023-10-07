@@ -17,7 +17,7 @@ Auto size text to fit inside a box
 npm i -S react-native-textfit
 ```
 
-## Usage Examples
+## Usage Exampless
 
 ```js
 import TextFit from "react-native-textfit"
